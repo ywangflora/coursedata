@@ -1,7 +1,7 @@
 homework 1: SNaQ data
 =====================
 
-### background (may be skipped)
+## background (may be skipped)
 
 SNaQ is a method to estimate the phylogenetic (~ genealogical) network
 that generated a set of molecular alignments.
@@ -83,4 +83,5 @@ it to github and to submit your work there (instructions to follow).
      (below) 3460
    - under3450: number of runs with a network score under 3450
    - under3440: number of runs with a network score under 3440
+
    <!-- - aveCPUtime: average CPU time per run: CPUtime / Nruns -->
