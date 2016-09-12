@@ -51,9 +51,9 @@ it to github and to submit your work there (instructions to follow).
 
 ## exercises
 
-1. Create a shell script to change all file names `timetesty_snaq.log`
-   to `timetest0y_snaq.log`, where "y" is a digit between 1 and 9,
-   and to change `timetesty_snaq.out` `timetest0y_snaq.out`.
+1. Create a shell script `normalizeFileNames.sh` to change all file names
+   `timetesty_snaq.log` to `timetest0y_snaq.log` where "y" is a digit between 1 and 9.
+   Similarly, change `timetesty_snaq.out` to `timetest0y_snaq.out`.
 
 2. Create a shell script `summarizeSNaQres.sh` to start a summary of the results
    from all these analyses. The script should produce a table in `csv` format,
