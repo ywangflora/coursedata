@@ -26,28 +26,6 @@ and `xxx.log` in the directory `log` (to record the parameter values and
 details on the individual runs of a single analysis).
 Here, `xxx` is an arbitrary name chosen by the analyst.
 
-## preparation for submission through github
-
-You need to download the data for the course in a git repository
-that is **kept separate** from your own directories when you do the work.
-Git repositories **must not** be nested within one another.
-(if you hear about submodules, forget about them for now).
-
-1. Get the data for the course:
-  - navigate to where you want the data to go.
-    This should **not** be inside a current git repository.
-  - run `git clone git@github.com:UWMadison-computingtools/coursedata.git`.
-    You should see a new directory `coursedata`. Do `ls` to check and
-    `ls coursedata` to see what's in there.
-2. Create a directory where you want to do all of your work for the course:
-  for this homework, other homeworks and projects, **outside** the
-  course data repository.  I will call this directory `stat679work`.
-3. Inside `stat679work`, create a directory for this first homework.
-  I will call it `hw1`.
-4. Copy the data for this homework inside `hw1`.
-
-Later, you will turn "stat679work" into a git repository, in order to broadcast
-it to github and to submit your work there (instructions to follow).
 
 ## exercises
 
