@@ -41,9 +41,23 @@ Here, `xxx` is an arbitrary name chosen by the analyst.
    - "h": the maximum number of hybridizations allowed during the analysis: `hmax`
    - "CPUtime": total CPU time, or "Elapsed time".
 
-   Hint: start with a single command to extract one piece only (like h) for
-   a single analysis. Then wrap it in a loop to apply this command to all
-   analyses.
+   For this exercise, use *only* the commands we have seen so far, like `head`,
+   `echo`, pipes, redirection, and only `grep` to search for things
+   (exercise 3 will provide practice with other tools).
+
+   Hint: start by finding one or a set of commands to work with a single
+   analysis, like the analysis whose results are in `log/bT1.log`
+   and `out/bT1.out`:
+
+   - find a command to extract the "root" name of this analysis (`bt1` here),
+     and to capture it in a variable.
+   - find a single command to extract one piece only (like h), again just
+     for this `bt1` analysis.
+   - find another command to extract the CPU time for that analysis.
+
+   Once you have a set of commands that work on a single analysis
+   (to extract info from a pair of files: log and out), then wrap this up
+   into loop, in a script, to apply this to all analyses/files.
 
 3. Create a script to summarize the results with more information.
    The script should produce a table in `csv` format with 1 row per analysis,
@@ -61,5 +75,7 @@ Here, `xxx` is an arbitrary name chosen by the analyst.
      (below) 3460
    - under3450: number of runs with a network score under 3450
    - under3440: number of runs with a network score under 3440
+
+   more specifics to come later.
 
    <!-- - aveCPUtime: average CPU time per run: CPUtime / Nruns -->

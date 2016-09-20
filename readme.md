@@ -14,7 +14,7 @@ in each folder for instructions on specific assignments.
 [instructions](http://cecileane.github.io/computingtools/pages/git.html)
 to install and configure git.
 2. below are instructions to use git to set up your homework repository
-3. jump to instructions to [submit](#Commit-push-and-submit-your-work) your work
+3. jump to instructions to [submit](#commit-push-and-submit-your-work) your work
 
 ## set-up your course repository
 
@@ -137,4 +137,60 @@ option 2 if you already started your work.
 
 These steps are to broadcast your work to github, to submit it there.
 
-(instructions to follow).
+To do once:
+
+- Share your repository, if you chose your repository to be private.
+  Add "UWMadison-computingtools" as a collaborator to share it with the class,
+  otherwise add me as collaborator at least.
+  To share your repo with specific github users, click on
+  "Settings" (near top right) then "Collaborator" (tab on the left), the
+  search for a github user in the box "search by username ...". Once found,
+  click "Add collaborator"
+
+To do for each homework:
+
+- save all your homework files locally
+- commit the files that you want to submit
+- run `git status` to double check
+- push the new commit(s) to your github repo
+- visit your repo on github, refresh the browser and make sure
+  it's all good: click on the files, on the last commit,
+  visit the network page (in "Graphs", then hover on the dots)
+
+After these steps, your work will be visible (to all if public repo,
+to collaborators if private).
+
+To submit your work: open an issue, link to the latest commit, and tag me:
+
+- find the SHA of the latest commit.
+  On github, above the file list, look for "latest commit" followed by 7 numbers/letters.
+  Right-click to copy the link to this last commit with its SHA. For example, it might
+  look like this:
+  `https://github.com/UWMadison-computingtools/coursedata/commit/0962e0575da1ead72884a8c6bc6c7910eb0169a3`
+  You can also get the SHA from the shell: `git log`, but the first option gives the
+  full link to that particular commit on the github repository.
+- on github, click on "Issues", then "New Issue". Name your issue
+  "Mark homework xxx, exercise yyy of firstname-lastname", where xxx and yyy are 1, 2, etc.
+- issue description:
+  * tag me by including the text @cecileane somewhere
+  * paste the revision SHA (link from first step)
+  * include comments to help me understand what you did
+  * use Markdown syntax
+  * click on "preview" to preview your issue (check the link)
+- submit "new issue". I will receive an email automatically because you tagged me.
+
+I will check your work online, will run your code to make sure it works,
+then provide feedback on the "issue" if needed, and close the issue when
+it's all done.
+
+## get help on your work
+
+You may also open an issue to get help. In this case, do as above but
+choose a different name for your issue.
+
+If I do not reply fast enough, I suggest that you share your repo with
+the class (github user: "UWMadison-computingtools") and that you tag
+someone else from the class, to get help from / discuss your issue with
+someone else. Then use the github issue feature for your discussion.
+Your goal is to learn these computing tools, so make sure you do the work
+yourself, even if you ask for help from someone else.
