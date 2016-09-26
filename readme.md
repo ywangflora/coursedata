@@ -205,6 +205,7 @@ yourself, even if you ask for help from someone else.
 This general gradic rubric is vastly borrowed from Jenny Bryan's course's
 [rubric](http://stat545.com/peer-review01_marking-rubric.html).
 <!-- Stat 545 at University of British Columbia -->
+For most assignments, the category for graph/table presentations will not apply.
 
 | Topic | Excellent |	Satisfactory | Needs work |
 |:------|:----------|:-------------|:-----------|
@@ -215,6 +216,3 @@ This general gradic rubric is vastly borrowed from Jenny Bryan's course's
 Presentation: graphs & tables | graph(s) carefully tuned to convey a message | well chosen graph(s) but a few minor problems (e.g. aspect ratios, labels) | poorly chosen graphs, do not address questions |
 | achievement, mastery, cleverness, creativity | beyond what was expected and required, e.g., extraordinary effort, additional tools not addressed by this course, unusually sophisticated application of tools from course |	tools and techniques from the course are applied very competently and, perhaps somewhat creatively. Chosen task was acceptable, but fairly conservative in ambition. | does not display the expected level of mastery of the tools and techniques in this course. Chosen task was too limited in scope. |
 | work submission | access was made easy for instructor, the code runs | satisfactory access, complied with instructions | not an earnest effort to comply with conventions and/or code does not run |
-|--------|------------|
-<!--|        |            |
-{: rules="groups"}-->
