@@ -1,7 +1,7 @@
-Data for Stat 679
-=================
+Data and Homework instructions
+==============================
 
-[Computing tools for data analytics](http://cecileane.github.io/computingtools),
+Stat 679: [Computing tools for data analytics](http://cecileane.github.io/computingtools),
 Fall 2016
 
 ---
@@ -18,6 +18,8 @@ to install and configure git.
   [work first](#option-2-start-your-work-first)
 3. instructions to [submit](#commit-push-and-submit-your-work) your work
 4. general grading [rubric](#grading-rubric)
+
+---
 
 ## set-up your course repository
 
