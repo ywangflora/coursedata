@@ -95,19 +95,26 @@ Once you have a set of commands that work on a single analysis
    - xabs: "xtolAbs"
    - xrel: "xtolRel"
    - seed: main seed, i.e. seed for the first runs
-   - under3460: number of runs that returned a network with a score better than
-     (below) 3460
+   - under3460: number of runs that returned a network with a score
+     (`-loglik` value) better than (below) 3460
    - under3450: number of runs with a network score under 3450
    - under3440: number of runs with a network score under 3440
+
    <!-- - aveCPUtime: average CPU time per run: CPUtime / Nruns -->
 
-  This time, your script should use `sed`, and any other shell command that you wish.
-  You may not need to, but you may use `basename` and/or `dirname`.
-  I suggest that you do so, to get some practice.
+  The goal of this exercise is to write a bash script with text
+  search/replace components, loops and test statements (for, if/then).
+
+  - this time, your script **should use `sed`**,
+    and any other shell command that you wish.
+  - you should also **use `basename`** and/or `dirname`
+  - use at least one `if` statement (you should also have at least one
+    `for` loop, like for exercise 2).
+  - do not use R or Python; the goal here is to learn bash scripting.
 
   Make sure to put a comment near each command that uses a regular expression
   (like `sed`), to explain what the command is doing.
   This is to make your code human-readable.
 
-  Also make sure to expand / modify your `readme` file to indicate what
+  Also expand / modify your `readme` file to indicate what
   scripts were run, when, from which directory, and for what purpose.
