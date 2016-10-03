@@ -102,7 +102,7 @@ Once you have a set of commands that work on a single analysis
 
    <!-- - aveCPUtime: average CPU time per run: CPUtime / Nruns -->
 
-  The goal of this exercise is to write a bash script with text
+  The **goal** of this exercise is to write a shell script with text
   search/replace components, loops and test statements (for, if/then).
 
   - this time, your script **should use `sed`**,
