@@ -110,7 +110,7 @@ Once you have a set of commands that work on a single analysis
   - you should also **use `basename`** and/or `dirname`
   - use at least one `if` statement (you should also have at least one
     `for` loop, like for exercise 2).
-  - do not use R or Python; the goal here is to learn bash scripting.
+  - do not use R or Python; the goal here is to learn shell scripting.
 
   Make sure to put a comment near each command that uses a regular expression
   (like `sed`), to explain what the command is doing.
