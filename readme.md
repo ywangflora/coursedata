@@ -18,7 +18,7 @@ Here are instructions to:
   [work first](#option-2-start-your-work-first)
 3. [submit](#commit-push-and-submit-your-work) your work.
 
-See also my general grading [rubric](rubric.html).
+See also my general grading [rubric](rubric.md).
 
 ---
 
