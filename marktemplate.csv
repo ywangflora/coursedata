@@ -1,0 +1,5 @@
+# rubric: https://github.com/UWMadison-computingtools/coursedata/blob/master/rubric.md
+# code: excellent=+1, satisfactory=0, needs work=-1
+name,performance,strategy,style,documentation,creativity,submission
+Joe Smith,+1,0,+1,+1,+1,-1
+Cecile,+1,+1,-1,0,+1,+1
