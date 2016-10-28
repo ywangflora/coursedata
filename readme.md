@@ -6,6 +6,14 @@ Fall 2016
 
 ---
 
+To get get the content of this repository:
+- clone it with
+`git clone git@github.com:UWMadison-computingtools/coursedata.git`.
+Make sure to do this *outside* of any existing repository
+(do `git status` first to check).
+- to get an update (e.g. for homework 2): `git pull origin master`
+from within your local copy of this repository.
+
 Data for homework assignments and group projects
 are organized in different folders. See the readme file
 in each folder for instructions on specific assignments.
